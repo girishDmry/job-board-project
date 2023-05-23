@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 60px;
+  background-color: #e7eaec;
+}
+
+main {
+  max-width: 70%;
+  margin: 30px auto;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 7rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+.benefit-image {
+  display: flex;
+  height: 200px;
+  width: 500px;
+  object-position: center;
+  object-fit: contain;margin-top: 30px;
+}
+
+.key-features ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.5rem;
+}
+
+.key-features li {
+  text-decoration: none;
+}

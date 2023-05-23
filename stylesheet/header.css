@@ -1,0 +1,43 @@
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  box-shadow: 0 1px 3.5px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  height: 45px;
+  width: 210px;
+  display: flex;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 15px;
+}
+
+a#header-nav-buttons {
+  color: #000000;
+  text-decoration: none;
+  background-color: white;
+}
+
+li:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
